@@ -1,0 +1,22 @@
+{
+  "name": "laura-ellis",
+  "version": "1.0.0",
+  "description": "Website for Laura Ellis",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullStackMartinez/laura-ellis.git"
+  },
+  "author": "Esteban Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fullStackMartinez/laura-ellis/issues"
+  },
+  "homepage": "https://github.com/fullStackMartinez/laura-ellis#readme",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
