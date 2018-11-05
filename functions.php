@@ -121,6 +121,7 @@ add_action( 'widgets_init', 'laura_ellis_widgets_init' );
  */
 function laura_ellis_scripts() {
 	wp_enqueue_style( 'laura-ellis-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'laura-ellis-main', get_template_directory_uri() . '/css/style_ellis.css' );
 
 	wp_enqueue_script( 'laura-ellis-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
@@ -135,22 +136,18 @@ add_action( 'wp_enqueue_scripts', 'laura_ellis_scripts' );
 /**
  * Implement the Custom Header feature.
  */
-require get_template_directory() . '/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';
 
 /**
  * Functions which enhance the theme by hooking into WordPress.
  */
-require get_template_directory() . '/inc/template-functions.php';
 
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer.php';
 
 /**
  * Load Jetpack compatibility file.
