@@ -134,25 +134,17 @@ function laura_ellis_scripts() {
 add_action( 'wp_enqueue_scripts', 'laura_ellis_scripts' );
 
 /**
- * Implement the Custom Header feature.
- */
-
-/**
- * Custom template tags for this theme.
- */
-
-/**
- * Functions which enhance the theme by hooking into WordPress.
- */
-
-/**
- * Customizer additions.
- */
-
-/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function myplugin_settings() {
+	// Add tag metabox to page
+	register_taxonomy_for_object_type('post_tag', 'page');
+	// Add category metabox to page
+	register_taxonomy_for_object_type('category', 'page');
+}
+// Add to the admin_init hook of your theme functions.php file
+add_action( 'init', 'myplugin_settings' );

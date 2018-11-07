@@ -20,7 +20,7 @@ get_header();
 			$args = array(
 				'posts_per_page' => -1,
 				'post_type' => 'Artwork',
-				'category_name' => 'Abstract',
+				'category_name' => 'abstract',
 			);
 
 			// query
