@@ -19,7 +19,8 @@ get_header();
 		<main id="main" class="site-main">
 
 			<div class="home-image">
-				<img src="img/moonlight-on-sea.jpg">
+				<!-- Using get_template_directory_uri() to get image from file -->
+				<img src="<?php echo get_template_directory_uri() . '/img/moonlight-on-sea.jpg'; ?>" />
 			</div>
 
 		</main><!-- #main -->

@@ -39,3 +39,27 @@ header {
         color: #A6A6A6; }
       header .main-navigation li a:hover {
         color: #00496B; }
+
+.home .home-image {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto; }
+  .home .home-image img {
+    padding: 12px;
+    height: auto;
+    max-width: 100%;
+    border: 1px solid #a6a6a6; }
+
+footer {
+  height: 90px;
+  display: flex; }
+  footer .icons {
+    text-align: center;
+    width: 100%; }
+    footer .icons .fab {
+      color: #A6A6A6;
+      position: relative;
+      top: 23px;
+      font-size: 26px; }
+      footer .icons .fab:visited {
+        color: #A6A6A6; }

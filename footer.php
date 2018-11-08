@@ -14,9 +14,10 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-
-		</div><!-- .site-info -->
+			<div class="icons">
+				<a href=""><i class="fab fa-facebook"></i></a>
+				<a href=""><i class="fab fa-instagram"></i></a>
+			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

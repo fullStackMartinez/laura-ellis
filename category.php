@@ -19,8 +19,9 @@ get_header();
 			$args = array(
 				'post_type' => 'artwork',
 				'category_name' => $current_category,
-				'posts_per_page' => -1
-			);
+				'posts_per_page' => -1,
+				'orderby' => 'DESC'
+				);
 			// The Query
 			$query = new WP_Query($args);
 			// The Loop
