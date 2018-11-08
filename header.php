@@ -16,7 +16,7 @@
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="https://gmpg.org/xfn/11">
-
+		<link rel="stylesheet" href="https://use.typekit.net/bnl2hhu.css">
 		<?php wp_head(); ?>
 	</head>
 
@@ -27,7 +27,7 @@
 
 			<header id="masthead" class="site-header">
 				<div class="site-branding">
-
+					<p>Laura Ellis</p>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation">

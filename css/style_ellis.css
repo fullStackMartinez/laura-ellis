@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: museo-sans, sans-serif; }
+
+header {
+  height: 110px;
+  width: 600px;
+  margin: 0 auto;
+  display: flex; }
+  header .site-branding {
+    width: 80%; }
+    header .site-branding p {
+      position: relative;
+      top: 35px;
+      font-size: 34px;
+      font-family: museo-sans, sans-serif;
+      text-transform: uppercase;
+      font-weight: lighter;
+      font-style: normal;
+      color: #A6A6A6; }
+  header .main-navigation li {
+    float: right;
+    position: relative;
+    padding-right: 18px;
+    top: 55px;
+    font-family: museo-sans, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase; }
+    header .main-navigation li a {
+      color: #A6A6A6; }
+    header .main-navigation li a:visited {
+      color: #A6A6A6; }
