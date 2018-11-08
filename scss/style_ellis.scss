@@ -32,6 +32,11 @@ header {
 			font-weight: lighter;
 			font-style: normal;
 			color: $primary-color;
+			text-decoration: none;
+		}
+
+		a {
+			text-decoration: none;
 		}
 	}
 
@@ -45,13 +50,19 @@ header {
 		text-transform: uppercase;
 
 		a {
+			display: block;
 			color: $primary-color;
-		}
 
-		& a:visited {
-			color: $primary-color;
-		}
+			&:visited {
+				color: $primary-color;
+			}
 
+			&:hover {
+				color: $hover;
+			}
+
+
+		}
 	}
 
 }

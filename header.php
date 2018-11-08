@@ -27,7 +27,7 @@
 
 			<header id="masthead" class="site-header">
 				<div class="site-branding">
-					<p>Laura Ellis</p>
+					<a href="<?php echo home_url(); ?>"><p>Laura Ellis</p></a>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation">
