@@ -19,7 +19,7 @@ get_header();
 		<main id="main" class="site-main">
 
 			<div class="home-image">
-				<img src=""
+				<img src="img/moonlight-on-sea.jpg">
 			</div>
 
 		</main><!-- #main -->
