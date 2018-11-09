@@ -167,6 +167,86 @@ header {
 	}
 }
 
+//Contact Page
+.page-id-274 #main {
+	max-width: 600px;
+	margin: 0 auto;
+
+	.home-image {
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+
+		img {
+			height: auto;
+			max-width: 95%;
+		}
+
+		h1 {
+			font-size: 28px;
+			font-family: $font;
+			font-weight: 100;
+			color: $primary-color;
+			margin-top: 15px;
+		}
+
+		div.wpcf7 {
+			margin: 0 auto !important;
+			width: 450px;
+			display: block;
+			padding-top: 16px;
+
+			.ajax-loader {
+				margin:0;
+			}
+
+			.wpcf7-form p label {
+				font-family: $font;
+				color: $primary-color;
+				font-size: 13px;
+				text-transform: uppercase;
+			}
+
+			.wpcf7-form p input[type="text"],
+			.wpcf7-form p input[type="email"] {
+				color: $primary-color;
+				border-top: 1px solid $primary-color;
+				border-bottom: 1px solid $primary-color;
+				border-right: none;
+				border-left: none;
+				opacity: .3;
+				padding: 9px;
+				margin: 10px 0 24px;
+			}
+			.wpcf7-form p textarea {
+				color: $primary-color;
+				border-top: 1px solid $primary-color;
+				border-bottom: 1px solid $primary-color;
+				border-right: none;
+				border-left: none;
+				opacity: .3;
+				padding: 9px;
+				margin: 10px 0 24px;
+				width: 375px;
+				height: 245px;
+			}
+
+			.wpcf7-form p input[type="submit"] {
+				background: $hover;
+				font-family: $font;
+				font-weight: 700;
+				color: white;
+				font-size: 12px;
+				line-height: 1;
+				padding: 15px 32px;
+				border-radius: 10px;
+				text-transform: uppercase;
+				margin: 14px 0 55px 4px;
+			}
+		}
+	}
+}
+
 
 //footer
 footer {

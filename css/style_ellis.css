@@ -107,6 +107,67 @@ header {
   .page-id-206 #primary footer {
     margin-top: 70px; }
 
+.page-id-274 #main {
+  max-width: 600px;
+  margin: 0 auto; }
+  .page-id-274 #main .home-image {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; }
+    .page-id-274 #main .home-image img {
+      height: auto;
+      max-width: 95%; }
+    .page-id-274 #main .home-image h1 {
+      font-size: 28px;
+      font-family: museo-sans, sans-serif;
+      font-weight: 100;
+      color: #A6A6A6;
+      margin-top: 15px; }
+    .page-id-274 #main .home-image div.wpcf7 {
+      margin: 0 auto !important;
+      width: 450px;
+      display: block;
+      padding-top: 16px; }
+      .page-id-274 #main .home-image div.wpcf7 .ajax-loader {
+        margin: 0; }
+      .page-id-274 #main .home-image div.wpcf7 .wpcf7-form p label {
+        font-family: museo-sans, sans-serif;
+        color: #A6A6A6;
+        font-size: 13px;
+        text-transform: uppercase; }
+      .page-id-274 #main .home-image div.wpcf7 .wpcf7-form p input[type="text"],
+      .page-id-274 #main .home-image div.wpcf7 .wpcf7-form p input[type="email"] {
+        color: #A6A6A6;
+        border-top: 1px solid #A6A6A6;
+        border-bottom: 1px solid #A6A6A6;
+        border-right: none;
+        border-left: none;
+        opacity: .3;
+        padding: 9px;
+        margin: 10px 0 24px; }
+      .page-id-274 #main .home-image div.wpcf7 .wpcf7-form p textarea {
+        color: #A6A6A6;
+        border-top: 1px solid #A6A6A6;
+        border-bottom: 1px solid #A6A6A6;
+        border-right: none;
+        border-left: none;
+        opacity: .3;
+        padding: 9px;
+        margin: 10px 0 24px;
+        width: 375px;
+        height: 245px; }
+      .page-id-274 #main .home-image div.wpcf7 .wpcf7-form p input[type="submit"] {
+        background: #00496B;
+        font-family: museo-sans, sans-serif;
+        font-weight: 700;
+        color: white;
+        font-size: 12px;
+        line-height: 1;
+        padding: 15px 32px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        margin: 14px 0 55px 4px; }
+
 footer {
   height: 90px;
   display: flex; }
