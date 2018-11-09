@@ -9,7 +9,31 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-			<h1><?php the_title(); ?></h1>
+			<div class="home-image">
+				<!-- Using get_template_directory_uri() to get image from file -->
+				<?php the_post_thumbnail(); ?>
+			</div>
+
+			<div class="about-content">
+				<?php
+				global $post;
+				$content = $post->post_content;
+
+				if ( !empty( $content ) ) :
+				echo $content;
+				endif;
+				?>
+			</div>
+
+			<!-- START OF BIO LOOP -->
+			<h3>bio</h3>
+			<?php while ( have_posts() ) : the_post(); ?>
+
+				<p class="bio"><?php the_field('bio'); ?></p>
+
+
+			<?php endwhile; // end of the loop. ?>
+			<!--End of bio loop -->
 
 			<!-- START OF EXHIBITIONS LOOP -->
 			<h3>exhibitions</h3>
@@ -26,7 +50,7 @@ get_header();
 						// loop through rows (parent repeater)
 						while(have_rows('exhibitions_info')): the_row(); ?>
 							<div>
-								<h3><?php the_sub_field('exhibition_year'); ?></h3>
+								<h4><?php the_sub_field('exhibition_year'); ?></h4>
 								<?php
 
 								// check for rows (sub repeater)
@@ -67,7 +91,7 @@ get_header();
 						// loop through rows (parent repeater)
 						while(have_rows('publications')): the_row(); ?>
 							<div>
-								<h3><?php the_sub_field('publication_year'); ?></h3>
+								<h4><?php the_sub_field('publication_year'); ?></h4>
 								<?php
 
 								// check for rows (sub repeater)
@@ -110,7 +134,7 @@ get_header();
 						// loop through rows (parent repeater)
 						while(have_rows('public_collections')): the_row(); ?>
 							<div>
-								<h3><?php the_sub_field('collections_year'); ?></h3>
+								<h4><?php the_sub_field('collections_year'); ?></h4>
 								<?php
 
 								// check for rows (sub repeater)
@@ -153,7 +177,7 @@ get_header();
 						// loop through rows (parent repeater)
 						while(have_rows('education')): the_row(); ?>
 							<div>
-								<h3><?php the_sub_field('education_year'); ?></h3>
+								<h4><?php the_sub_field('education_year'); ?></h4>
 								<?php
 
 								// check for rows (sub repeater)
@@ -177,39 +201,7 @@ get_header();
 				<?php endif; // if( get_field('to-do_lists') ): ?>
 
 			<?php endwhile; // end of the loop. ?>
-
 			<!-- END OF EDUCATION LOOP -->
-
-			<h3>representation</h3>
-
-			<!-- START OF REP LOOP -->
-
-			<?php while(have_posts()) : the_post(); ?>
-
-				<?php
-
-				// check for rows (parent repeater)
-				if(have_rows('representation')): ?>
-					<div id="container">
-						<?php
-
-						// loop through rows (parent repeater)
-						while(have_rows('representation')): the_row(); ?>
-							<div>
-								<h3><?php the_sub_field('rep_name'); ?></h3>
-								<p><?php the_sub_field('rep_address'); ?></p>
-								<p><?php the_sub_field('rep_city_and_state'); ?></p>
-								<p><?php the_sub_field('rep_phone_number'); ?></p>
-								<p><?php the_sub_field('rep_email'); ?></p>
-							</div>
-
-						<?php endwhile; // while( has_sub_field('to-do_lists') ): ?>
-					</div>
-				<?php endif; // if( get_field('to-do_lists') ): ?>
-
-			<?php endwhile; // end of the loop. ?>
-
-			<!-- END OF REP LOOP -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

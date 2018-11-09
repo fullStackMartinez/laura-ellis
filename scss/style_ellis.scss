@@ -105,6 +105,69 @@ header {
 	}
 }
 
+//About Page
+.page-id-206 #primary {
+	max-width: 640px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 13px;
+	font-family: $font;
+	color: $primary-color;
+
+	h3 {
+		font-size: 28px;
+		font-family: $font;
+		font-weight: lighter;
+		color: #59594D;
+	}
+
+	h4 {
+		font-family: $font;
+		font-size: 13px;
+		font-weight: 700;
+		color: #59594D;
+	}
+
+	ul {
+		margin-left: 0;
+
+		li {
+			list-style-type: none;
+			padding-left: 0;
+		}
+	}
+
+	.about-content {
+		max-width: 570px;
+		padding: 23px;
+		margin: 0 auto;
+	}
+
+	.bio {
+		max-width: 570px;
+		margin: 0 auto;
+	}
+
+	.container {
+		max-width: 470px;
+	}
+
+	.home-image {
+		max-width: 640px;
+		margin: 45px auto 0;
+
+		img {
+			height: auto;
+			max-width: 100%;
+		}
+	}
+
+	footer {
+		margin-top: 70px;
+	}
+}
+
+
 //footer
 footer {
 	height: 90px;

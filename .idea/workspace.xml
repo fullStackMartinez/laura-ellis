@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21098d1a-480d-48e4-9c55-4640cc22bc5b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/contact-page.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/laura-ellis.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/archive-art.php" afterPath="$PROJECT_DIR$/archive-art.php" />
-      <change beforePath="$PROJECT_DIR$/category.php" afterPath="$PROJECT_DIR$/category.php" />
+      <change beforePath="$PROJECT_DIR$/about-page.php" afterPath="$PROJECT_DIR$/about-page.php" />
       <change beforePath="$PROJECT_DIR$/css/style_ellis.css" afterPath="$PROJECT_DIR$/css/style_ellis.css" />
-      <change beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
       <change beforePath="$PROJECT_DIR$/scss/style_ellis.scss" afterPath="$PROJECT_DIR$/scss/style_ellis.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,86 +17,88 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="archive-art.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/archive-art.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/single.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="36" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/functions.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="373">
-                  <caret line="120" column="92" lean-forward="true" selection-start-line="120" selection-start-column="92" selection-end-line="120" selection-end-column="92" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/category.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style_ellis.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/style_ellis.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="507">
-                  <caret line="101" column="13" lean-forward="true" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style_ellis.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/style_ellis.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="354">
-                  <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="style_ellis.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/scss/style_ellis.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="268">
-                  <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="archive-art.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archive-art.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="36" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1938">
+              <caret line="120" column="92" lean-forward="false" selection-start-line="120" selection-start-column="92" selection-end-line="120" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style_ellis.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/style_ellis.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="160" column="24" lean-forward="true" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contact-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="23" column="15" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="23" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -116,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/about-page.php" />
         <option value="$PROJECT_DIR$/archive-landscape.php" />
         <option value="$PROJECT_DIR$/sass/main.scss" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -130,6 +131,7 @@
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/archive-art.php" />
         <option value="$PROJECT_DIR$/category.php" />
+        <option value="$PROJECT_DIR$/about-page.php" />
         <option value="$PROJECT_DIR$/scss/style_ellis.scss" />
       </list>
     </option>
@@ -145,8 +147,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="993" />
-    <option name="width" value="925" />
+    <option name="x" value="2171" />
+    <option name="y" value="29" />
+    <option name="width" value="910" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -165,8 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,7 +233,8 @@
       <workItem from="1541616127153" duration="18800000" />
       <workItem from="1541642997595" duration="14300000" />
       <workItem from="1541740638141" duration="2776000" />
-      <workItem from="1541743635594" duration="4780000" />
+      <workItem from="1541743635594" duration="4860000" />
+      <workItem from="1541788316828" duration="8849000" />
     </task>
     <task id="LOCAL-00001" summary="index.php clean up">
       <created>1538253623867</created>
@@ -337,17 +341,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541743438746</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="styled archive-art.php page">
+      <created>1541749682240</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1541749682240</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67604000" />
+    <option name="totallyTimeSpent" value="76533000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="993" y="0" width="925" height="1087" extended-state="0" />
+    <frame x="2171" y="29" width="910" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24739884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1835294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -385,21 +396,14 @@
     <MESSAGE value="scss header/nav/logo" />
     <MESSAGE value="more logo styling, wrapped logo in a tag to go home" />
     <MESSAGE value="added function to grab post ids of a category to use for navigation next/previous&#10;&#10;styled homepage, finished navbar, styled footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="added function to grab post ids of a category to use for navigation next/previous&#10;&#10;styled homepage, finished navbar, styled footer" />
+    <MESSAGE value="styled archive-art.php page" />
+    <option name="LAST_COMMIT_MESSAGE" value="styled archive-art.php page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scss/style_ellis.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -619,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss" />
     <entry file="file://$PROJECT_DIR$/sass/main.scss" />
     <entry file="file://$PROJECT_DIR$/css/style_ellis.scss" />
@@ -640,14 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archive-landscape.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="679">
@@ -693,23 +675,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="120" column="92" lean-forward="true" selection-start-line="120" selection-start-column="92" selection-end-line="120" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style_ellis.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        <state relative-caret-position="1938">
+          <caret line="120" column="92" lean-forward="false" selection-start-line="120" selection-start-column="92" selection-end-line="120" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="510">
           <caret line="36" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
@@ -717,24 +691,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/style_ellis.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="101" column="13" lean-forward="true" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archive-art.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_ellis.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="15" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="23" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style_ellis.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="160" column="24" lean-forward="true" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
