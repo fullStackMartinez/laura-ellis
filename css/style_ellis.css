@@ -63,3 +63,7 @@ footer {
       font-size: 26px; }
       footer .icons .fab:visited {
         color: #A6A6A6; }
+
+.yes {
+  width: 100%;
+  margin: 0 auto; }

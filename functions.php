@@ -116,6 +116,12 @@ function laura_ellis_widgets_init() {
 }
 add_action( 'widgets_init', 'laura_ellis_widgets_init' );
 
+add_action( 'after_setup_theme', 'image_sizes' );
+function image_sizes() {
+	add_image_size( 'categories', 350, 280, false ); // 300 pixels wide (and unlimited height)
+	add_image_size( 'homepage-thumb', 220, 180, true ); // (cropped)
+}
+
 /**
  * Enqueue scripts and styles.
  */

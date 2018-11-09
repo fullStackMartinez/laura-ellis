@@ -11,7 +11,7 @@ get_header();
 			<?php
 			$args = array(
 				'hide_empty' => 1,
-				'orderby' => 'name',
+				'orderby' => 'date',
 				'order' => 'ASC'
 			);
 			$categories = get_categories($args);
@@ -26,7 +26,7 @@ get_header();
 
 				while($the_query->have_posts()) :
 					$the_query->the_post(); ?>
-					<a href="<?php echo esc_url($category_link); ?>"><?php the_post_thumbnail(); ?></a><?php
+					<a href="<?php echo esc_url($category_link); ?>"><?php the_post_thumbnail('categories'); ?></a><?php
 				endwhile;
 			}
 			?>
