@@ -11,12 +11,11 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
+		<div class="category-title">
+			<?php single_cat_title(''); ?>
+		</div>
 			<!--BEGINNING OF CATEGORY LOOP, WHICH WILL SHOW ARTWORK THAT SHARE THE SAME CATEGORY -->
-
-			<?php $current_category = single_cat_title("", false); ?>
-
-			<?php
+			<?php $current_category = single_cat_title("", false);
 
 			// The Arguments
 			$args = array(
@@ -37,9 +36,9 @@ get_header();
 				<!-- Start the loop the loop -->
 				<?php while($the_query->have_posts()) : $the_query->the_post(); ?>
 
-
-					<p><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
-
+				<div class="grid-item">
+					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+				</div>
 
 				<?php endwhile; endif; // end of the loop. ?>
 

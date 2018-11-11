@@ -19,6 +19,8 @@ get_header();
 				foreach($categories as $category) {
 					$category_id = get_cat_ID($category->name);
 					$category_link = get_category_link($category_id);
+					$term = get_category_by_slug($category->name);
+
 					$the_query = new WP_Query(array(
 						'post_type' => 'Artwork',
 						'posts_per_page' => 1,
@@ -27,10 +29,13 @@ get_header();
 					));
 
 					while($the_query->have_posts()) :
-						$the_query->the_post(); ?>
-						<li><a href="<?php echo esc_url($category_link); ?>"><?php the_post_thumbnail('categories'); ?></a>
+						$the_query->the_post();
+					$cat = get_terms('artwork');
+						?>
+						<li>
+							<a href="<?php echo esc_url($category_link); ?>"><?php the_post_thumbnail('categories'); ?></a>
+							<p class="category-name"><?php echo $term->name; ?></p>
 						</li>
-
 					<?php
 					endwhile;
 
