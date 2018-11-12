@@ -30,11 +30,18 @@ get_header();
 
 					while($the_query->have_posts()) :
 						$the_query->the_post();
-					$cat = get_terms('artwork');
+						$cat = get_terms('artwork');
 						?>
 						<li>
-							<a href="<?php echo esc_url($category_link); ?>"><?php the_post_thumbnail('categories'); ?></a>
-							<p class="category-name"><?php echo $term->name; ?></p>
+							<div class="grid-container">
+								<a href="<?php echo esc_url($category_link); ?>">
+									<p class="image"><?php the_post_thumbnail('categories'); ?></p>
+								</a>
+								<div class="middle">
+									<div class="text"><?php echo $term->name; ?></div>
+								</div>
+							</div>
+							<p class="hidden-title"><?php echo $term->name; ?></p>
 						</li>
 					<?php
 					endwhile;

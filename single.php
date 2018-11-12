@@ -16,10 +16,23 @@ get_header();
 			<?php
 			while(have_posts()) :
 				the_post();
-
 				the_post_thumbnail();
-				the_title();
 
+				$featured = get_field('is_this_a_sold_item?'); ?>
+	<div class="artwork-container">
+
+		<?php the_title(); ?>,
+		<?php the_field('artwork_year'); ?>,
+		<?php the_field('artwork_medium'); ?>,
+		<?php the_field('width'); ?>" X <?php the_field('height'); ?>
+
+		<!-- IF THIS CUSTOM FIELD HAS A SPECIFIC VALUE, ECHO SOMETHING OUT -->
+		<?php if(isset($featured) && $featured == "y") : ?>
+			Private Collection
+		<?php endif; ?>
+
+	</div>
+<?php
 
 			endwhile; // End of the loop.
 
@@ -50,12 +63,12 @@ get_header();
 
 			if(!empty($previd)) {
 				?>
-				<a rel="prev" href="<?php echo get_permalink($previd) ?>">Previous</a>
+				<a rel="prev" href="<?php echo get_permalink($previd) ?>"><</a>
 				<?php
 			}
 			if(!empty($nextid)) {
 				?>
-				<a rel="next" href="<?php echo get_permalink($nextid) ?>">Next</a>
+				<a rel="next" href="<?php echo get_permalink($nextid) ?>"><i class="fas fa-chevron-circle-right"></i></a>
 				<?php
 			}
 			?>
