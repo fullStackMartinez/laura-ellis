@@ -302,6 +302,13 @@ header {
 				width: 80%;
 				margin: 0 auto;
 			}
+
+			a {
+
+				&:hover {
+					color: red;
+				}
+			}
 			.prev {
 				position: absolute;
 				top: 50%;
@@ -309,6 +316,7 @@ header {
 				text-decoration: none;
 				font-family: $font;
 				color: $primary-color;
+				font-weight: bold;
 				font-size: 35px;
 
 				@media #{$artGrid} {
@@ -327,6 +335,7 @@ header {
 				text-decoration: none;
 				font-family: $font;
 				color: $primary-color;
+				font-weight: bold;
 				font-size: 35px;
 
 				@media #{$artGrid} {

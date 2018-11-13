@@ -4,10 +4,8 @@
     <list default="true" id="21098d1a-480d-48e4-9c55-4640cc22bc5b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/style_ellis.css" afterPath="$PROJECT_DIR$/css/style_ellis.css" />
-      <change beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
       <change beforePath="$PROJECT_DIR$/scss/style_ellis.scss" afterPath="$PROJECT_DIR$/scss/style_ellis.scss" />
       <change beforePath="$PROJECT_DIR$/single.php" afterPath="$PROJECT_DIR$/single.php" />
-      <change beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,14 +15,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3873112">
+    <splitter split-orientation="horizontal" split-proportion="0.44819465">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="archive-art.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/archive-art.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
+                <state relative-caret-position="833">
                   <caret line="40" column="77" lean-forward="false" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="about-page.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/about-page.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -33,28 +41,18 @@
           <file leaf-file-name="backup.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/backup.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1445">
+                <state relative-caret-position="673">
                   <caret line="85" column="46" lean-forward="false" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style_ellis.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style_ellis.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/style_ellis.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="347" column="26" lean-forward="false" selection-start-line="347" selection-start-column="26" selection-end-line="347" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="101">
-                  <caret line="696" column="33" lean-forward="false" selection-start-line="696" selection-start-column="33" selection-end-line="696" selection-end-column="33" />
+                <state relative-caret-position="799">
+                  <caret line="350" column="17" lean-forward="true" selection-start-line="350" selection-start-column="17" selection-end-line="350" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -77,8 +75,8 @@
           <file leaf-file-name="single.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/single.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="57" column="84" lean-forward="false" selection-start-line="57" selection-start-column="84" selection-end-line="57" selection-end-column="84" />
+                <state relative-caret-position="629">
+                  <caret line="51" column="89" lean-forward="false" selection-start-line="51" selection-start-column="89" selection-end-line="51" selection-end-column="89" />
                   <folding />
                 </state>
               </provider>
@@ -123,9 +121,10 @@
         <option value="$PROJECT_DIR$/../../../wp-config.php" />
         <option value="$USER_HOME$/Desktop/New directory/wp-config.php" />
         <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/singlesingle.php" />
         <option value="$PROJECT_DIR$/single.php" />
         <option value="$PROJECT_DIR$/scss/style_ellis.scss" />
-        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -140,10 +139,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="29" />
-    <option name="width" value="1352" />
-    <option name="height" value="736" />
+    <option name="x" value="1834" />
+    <option name="y" value="112" />
+    <option name="width" value="1334" />
+    <option name="height" value="913" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,6 +167,11 @@
             <path>
               <item name="laura-ellis" type="b2602c69:ProjectViewProjectNode" />
               <item name="laura-ellis" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laura-ellis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laura-ellis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -219,7 +223,7 @@
       <workItem from="1541743635594" duration="4860000" />
       <workItem from="1541788316828" duration="48085000" />
       <workItem from="1542003407175" duration="2488000" />
-      <workItem from="1542056394399" duration="9583000" />
+      <workItem from="1542056394399" duration="16150000" />
     </task>
     <task id="LOCAL-00001" summary="index.php clean up">
       <created>1538253623867</created>
@@ -361,17 +365,24 @@
       <option name="project" value="LOCAL" />
       <updated>1542003487209</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="styled single artwork page, edited mark up on single.php">
+      <created>1542073911173</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1542073911173</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127840000" />
+    <option name="totallyTimeSpent" value="134407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="29" width="1352" height="736" extended-state="0" />
+    <frame x="1834" y="112" width="1334" height="913" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.222135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -414,20 +425,14 @@
     <MESSAGE value="styled and finished contact form" />
     <MESSAGE value="styled mobile navbar&#10;styled archive-art template/mobile&#10;category grid styled for mobile" />
     <MESSAGE value="style hover over on category grid template" />
-    <option name="LAST_COMMIT_MESSAGE" value="style hover over on category grid template" />
+    <MESSAGE value="styled single artwork page, edited mark up on single.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="styled single artwork page, edited mark up on single.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/style_ellis.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -637,6 +642,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -652,14 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="25" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="46" lean-forward="false" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/New directory/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -732,34 +722,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="696" column="33" lean-forward="false" selection-start-line="696" selection-start-column="33" selection-end-line="696" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singlesingle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="69" column="82" lean-forward="true" selection-start-line="69" selection-start-column="82" selection-end-line="69" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="85" column="46" lean-forward="false" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/archive-art.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
+        <state relative-caret-position="833">
           <caret line="40" column="77" lean-forward="false" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="57" column="84" lean-forward="false" selection-start-line="57" selection-start-column="84" selection-end-line="57" selection-end-column="84" />
+        <state relative-caret-position="629">
+          <caret line="51" column="89" lean-forward="false" selection-start-line="51" selection-start-column="89" selection-end-line="51" selection-end-column="89" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/style_ellis.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="347" column="26" lean-forward="false" selection-start-line="347" selection-start-column="26" selection-end-line="347" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="696" column="33" lean-forward="false" selection-start-line="696" selection-start-column="33" selection-end-line="696" selection-end-column="33" />
+        <state relative-caret-position="799">
+          <caret line="350" column="17" lean-forward="true" selection-start-line="350" selection-start-column="17" selection-end-line="350" selection-end-column="17" />
           <folding />
         </state>
       </provider>

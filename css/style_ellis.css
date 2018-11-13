@@ -208,6 +208,8 @@ header {
       .single #primary #main .upfront {
         width: 80%;
         margin: 0 auto; } }
+    .single #primary #main .upfront a:hover {
+      color: red; }
     .single #primary #main .upfront .prev {
       position: absolute;
       top: 50%;
@@ -215,6 +217,7 @@ header {
       text-decoration: none;
       font-family: museo-sans, sans-serif;
       color: #A6A6A6;
+      font-weight: bold;
       font-size: 35px; }
       @media only screen and (max-width: 800px) {
         .single #primary #main .upfront .prev {
@@ -229,6 +232,7 @@ header {
       text-decoration: none;
       font-family: museo-sans, sans-serif;
       color: #A6A6A6;
+      font-weight: bold;
       font-size: 35px; }
       @media only screen and (max-width: 800px) {
         .single #primary #main .upfront .next {
