@@ -6,6 +6,7 @@ $hover: #00496B;
 $mobile: 'only screen and (max-width: 600px)';
 $artGrid: 'only screen and (max-width: 800px)';
 $gridMobile: 'only screen and (max-width: 490px)';
+$singleArt: 'only screen and (max-width: 700px)';
 
 * {
 	padding: 0;
@@ -291,19 +292,83 @@ header {
 }
 
 .single #primary {
-	max-width: 715px;
 	padding: 15px;
-	margin: 0 auto;
 
 	#main {
-		max-width: 715px;
-		margin: 0 auto;
+		text-align: center;
 
-		img {
-			max-width: 100%;
-			height: auto;
+		.upfront {
+			@media #{$artGrid} {
+				width: 80%;
+				margin: 0 auto;
+			}
+			.prev {
+				position: absolute;
+				top: 50%;
+				left: 3%;
+				text-decoration: none;
+				font-family: $font;
+				color: $primary-color;
+				font-size: 35px;
+
+				@media #{$artGrid} {
+					left: 1%;
+					font-size: 28px;
+				}
+
+				&:visited {
+					color: $primary-color;
+				}
+			}
+			.next {
+				position: absolute;
+				top: 50%;
+				right: 3%;
+				text-decoration: none;
+				font-family: $font;
+				color: $primary-color;
+				font-size: 35px;
+
+				@media #{$artGrid} {
+					right: 1%;
+					font-size: 28px;
+				}
+
+				&:visited {
+					color: $primary-color;
+				}
+			}
+
+			.close {
+				width: 685px;
+				margin: 0 auto;
+				text-align: right;
+
+				@media #{$artGrid} {
+					width: 100%;
+				}
+
+				a {
+					text-decoration: none;
+					font-family: $font;
+					color: $primary-color;
+					font-size: 18px;
+
+					&:visited {
+						color: $primary-color;
+					}
+				}
+			}
+
+			img {
+				height: auto;
+				width: 685px;
+
+				@media #{$artGrid} {
+					width: 100%;
+				}
+			}
 		}
-
 		.artwork-container {
 			text-align: center;
 			margin-top: 45px;
@@ -349,7 +414,7 @@ header {
 			padding-top: 16px;
 
 			.ajax-loader {
-				margin:0;
+				margin: 0;
 			}
 
 			.wpcf7-form p label {
@@ -398,7 +463,6 @@ header {
 		}
 	}
 }
-
 
 //footer
 footer {

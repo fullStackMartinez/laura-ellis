@@ -201,15 +201,61 @@ header {
           height: 200px; } }
 
 .single #primary {
-  max-width: 715px;
-  padding: 15px;
-  margin: 0 auto; }
+  padding: 15px; }
   .single #primary #main {
-    max-width: 715px;
-    margin: 0 auto; }
-    .single #primary #main img {
-      max-width: 100%;
-      height: auto; }
+    text-align: center; }
+    @media only screen and (max-width: 800px) {
+      .single #primary #main .upfront {
+        width: 80%;
+        margin: 0 auto; } }
+    .single #primary #main .upfront .prev {
+      position: absolute;
+      top: 50%;
+      left: 3%;
+      text-decoration: none;
+      font-family: museo-sans, sans-serif;
+      color: #A6A6A6;
+      font-size: 35px; }
+      @media only screen and (max-width: 800px) {
+        .single #primary #main .upfront .prev {
+          left: 1%;
+          font-size: 28px; } }
+      .single #primary #main .upfront .prev:visited {
+        color: #A6A6A6; }
+    .single #primary #main .upfront .next {
+      position: absolute;
+      top: 50%;
+      right: 3%;
+      text-decoration: none;
+      font-family: museo-sans, sans-serif;
+      color: #A6A6A6;
+      font-size: 35px; }
+      @media only screen and (max-width: 800px) {
+        .single #primary #main .upfront .next {
+          right: 1%;
+          font-size: 28px; } }
+      .single #primary #main .upfront .next:visited {
+        color: #A6A6A6; }
+    .single #primary #main .upfront .close {
+      width: 685px;
+      margin: 0 auto;
+      text-align: right; }
+      @media only screen and (max-width: 800px) {
+        .single #primary #main .upfront .close {
+          width: 100%; } }
+      .single #primary #main .upfront .close a {
+        text-decoration: none;
+        font-family: museo-sans, sans-serif;
+        color: #A6A6A6;
+        font-size: 18px; }
+        .single #primary #main .upfront .close a:visited {
+          color: #A6A6A6; }
+    .single #primary #main .upfront img {
+      height: auto;
+      width: 685px; }
+      @media only screen and (max-width: 800px) {
+        .single #primary #main .upfront img {
+          width: 100%; } }
     .single #primary #main .artwork-container {
       text-align: center;
       margin-top: 45px;
