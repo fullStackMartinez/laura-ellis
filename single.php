@@ -37,19 +37,21 @@ get_header();
 			?>
 			<div class="upfront">
 				<div class="close">
-					<a href="<?php echo get_category_link($current_cat_id); ?>"> X </a>
+					<a href="<?php echo get_category_link($current_cat_id); ?>">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ellisx.png" id="xx" />
+					</a>
 				</div>
 				<?php
 				if(!empty($previd)) {
 					?>
-					<a rel="prev" href="<?php echo get_permalink($previd) ?>" class="prev"> < </a>
+					<a rel="prev" href="<?php echo get_permalink($previd) ?>" class="prev"><img src="<?php echo get_template_directory_uri(); ?>/img/ellis2018bleft.png"/></a>
 					<?php
 				}
 				the_post_thumbnail(); ?>
 				<?php
 				if(!empty($nextid)) {
 					?>
-					<a rel="next" href="<?php echo get_permalink($nextid) ?>" class="next"> > </a>
+					<a rel="next" href="<?php echo get_permalink($nextid) ?>" class="next"><img src="<?php echo get_template_directory_uri(); ?>/img/ellis2018b.png"/></a>
 					<?php
 				} ?>
 			</div>

@@ -327,6 +327,10 @@ header {
 				&:visited {
 					color: $primary-color;
 				}
+
+				img {
+					width: 13px;
+				}
 			}
 			.next {
 				position: absolute;
@@ -346,6 +350,9 @@ header {
 				&:visited {
 					color: $primary-color;
 				}
+				img {
+					width: 13px;
+				}
 			}
 
 			.close {
@@ -355,6 +362,9 @@ header {
 
 				@media #{$artGrid} {
 					width: 100%;
+				}
+				#xx {
+					width: 12px;
 				}
 
 				a {
@@ -379,7 +389,7 @@ header {
 			}
 		}
 		.artwork-container {
-			text-align: center;
+			text-align: right;
 			margin-top: 45px;
 			font-family: $font;
 			font-size: 14px;
@@ -436,20 +446,14 @@ header {
 			.wpcf7-form p input[type="text"],
 			.wpcf7-form p input[type="email"] {
 				color: $primary-color;
-				border-top: 1px solid $primary-color;
-				border-bottom: 1px solid $primary-color;
-				border-right: none;
-				border-left: none;
+				border: 1px solid $primary-color;
 				opacity: .3;
 				padding: 9px;
 				margin: 10px 0 24px;
 			}
 			.wpcf7-form p textarea {
 				color: $primary-color;
-				border-top: 1px solid $primary-color;
-				border-bottom: 1px solid $primary-color;
-				border-right: none;
-				border-left: none;
+				border: 1px solid $primary-color;
 				opacity: .3;
 				padding: 9px;
 				margin: 10px 0 24px;
@@ -468,6 +472,11 @@ header {
 				border-radius: 10px;
 				text-transform: uppercase;
 				margin: 14px 0 55px 4px;
+				cursor: pointer;
+
+				&:hover {
+					background-color: #4F91C5;
+				}
 			}
 		}
 	}
