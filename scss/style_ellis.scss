@@ -291,6 +291,7 @@ header {
 	}
 }
 
+//SINGLE ARTWORK STYLES
 .single #primary {
 	padding: 15px;
 
@@ -397,6 +398,49 @@ header {
 			text-transform: uppercase;
 		}
 	}
+}
+
+//Galleries Page
+.page-id-290 #primary {
+	max-width: 640px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 13px;
+	font-family: $font;
+	color: $primary-color;
+
+	h3 {
+		width: 100%;
+		text-transform: lowercase;
+		text-align: center;
+		font-size: 32px;
+		margin: 10px 0 35px;
+		font-family: $font;
+		font-weight: lighter;
+		color: $primary-color;
+	}
+
+	ul {
+		list-style-type: none;
+		margin-left: 0;
+
+			#container {
+				margin-bottom: 40px;
+
+				h4 {
+					font-family: $font;
+					font-size: 18px;
+					font-weight: 700;
+					color: #707064;
+				}
+
+				p {
+					display: block;
+					margin-bottom: 0;
+				}
+			}
+		}
+
 }
 
 //Contact Page

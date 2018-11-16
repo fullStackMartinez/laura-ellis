@@ -10,7 +10,6 @@ get_header();
 		<main id="main" class="site-main">
 
 			<div class="home-image">
-				<!-- Using get_template_directory_uri() to get image from file -->
 				<?php the_post_thumbnail(); ?>
 			</div>
 
