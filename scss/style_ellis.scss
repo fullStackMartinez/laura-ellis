@@ -8,6 +8,12 @@ $artGrid: 'only screen and (max-width: 800px)';
 $gridMobile: 'only screen and (max-width: 490px)';
 $singleArt: 'only screen and (max-width: 700px)';
 
+@mixin opacity_element($value) {
+	-webkit-filter: #{"opacity(#{$value})"};
+	-moz-filter: #{"opacity(#{$value})"};
+	filter: #{"opacity(#{$value})"};
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -331,6 +337,11 @@ header {
 
 				img {
 					width: 13px;
+					@include opacity_element(80%);
+					&:hover {
+						@include opacity_element(120%);
+						cursor: pointer;
+					}
 				}
 			}
 			.next {
@@ -353,6 +364,11 @@ header {
 				}
 				img {
 					width: 13px;
+					@include opacity_element(80%);
+					&:hover {
+						@include opacity_element(140%);
+						cursor: pointer;
+					}
 				}
 			}
 
@@ -366,6 +382,12 @@ header {
 				}
 				#xx {
 					width: 12px;
+					@include opacity_element(80%);
+
+					&:hover {
+						@include opacity_element(140%);
+						cursor: pointer;
+					}
 				}
 
 				a {
@@ -424,22 +446,22 @@ header {
 		list-style-type: none;
 		margin-left: 0;
 
-			#container {
-				margin-bottom: 40px;
+		#container {
+			margin-bottom: 40px;
 
-				h4 {
-					font-family: $font;
-					font-size: 18px;
-					font-weight: 700;
-					color: #707064;
-				}
+			h4 {
+				font-family: $font;
+				font-size: 18px;
+				font-weight: 700;
+				color: #707064;
+			}
 
-				p {
-					display: block;
-					margin-bottom: 0;
-				}
+			p {
+				display: block;
+				margin-bottom: 0;
 			}
 		}
+	}
 
 }
 

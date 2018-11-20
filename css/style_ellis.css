@@ -226,7 +226,15 @@ header {
       .single #primary #main .upfront .prev:visited {
         color: #A6A6A6; }
       .single #primary #main .upfront .prev img {
-        width: 13px; }
+        width: 13px;
+        -webkit-filter: opacity(80%);
+        -moz-filter: opacity(80%);
+        filter: opacity(80%); }
+        .single #primary #main .upfront .prev img:hover {
+          -webkit-filter: opacity(120%);
+          -moz-filter: opacity(120%);
+          filter: opacity(120%);
+          cursor: pointer; }
     .single #primary #main .upfront .next {
       position: absolute;
       top: 50%;
@@ -243,7 +251,15 @@ header {
       .single #primary #main .upfront .next:visited {
         color: #A6A6A6; }
       .single #primary #main .upfront .next img {
-        width: 13px; }
+        width: 13px;
+        -webkit-filter: opacity(80%);
+        -moz-filter: opacity(80%);
+        filter: opacity(80%); }
+        .single #primary #main .upfront .next img:hover {
+          -webkit-filter: opacity(140%);
+          -moz-filter: opacity(140%);
+          filter: opacity(140%);
+          cursor: pointer; }
     .single #primary #main .upfront .close {
       width: 685px;
       margin: 0 auto;
@@ -252,7 +268,15 @@ header {
         .single #primary #main .upfront .close {
           width: 100%; } }
       .single #primary #main .upfront .close #xx {
-        width: 12px; }
+        width: 12px;
+        -webkit-filter: opacity(80%);
+        -moz-filter: opacity(80%);
+        filter: opacity(80%); }
+        .single #primary #main .upfront .close #xx:hover {
+          -webkit-filter: opacity(140%);
+          -moz-filter: opacity(140%);
+          filter: opacity(140%);
+          cursor: pointer; }
       .single #primary #main .upfront .close a {
         text-decoration: none;
         font-family: museo-sans, sans-serif;
