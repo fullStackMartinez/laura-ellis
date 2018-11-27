@@ -58,10 +58,10 @@ get_header();
 			<?php $featured = get_field('is_this_a_sold_item?'); ?>
 			<div class="artwork-container">
 
-				<?php the_title(); ?>,
-				<?php the_field('artwork_year'); ?>,
-				<?php the_field('artwork_medium'); ?>,
-				<?php the_field('width'); ?>" X <?php the_field('height'); ?>
+				<span><?php the_title(); ?>,
+				<?php the_field('artwork_year'); ?><span class="comma">,</span></span>
+				<span><?php the_field('artwork_medium'); ?><span class="comma">,</span></span>
+				<span><?php the_field('width'); ?>" X <?php the_field('height'); ?></span>
 
 				<!-- IF THIS CUSTOM FIELD HAS A SPECIFIC VALUE, ECHO SOMETHING OUT -->
 				<?php if(isset($featured) && $featured == "y") : ?>

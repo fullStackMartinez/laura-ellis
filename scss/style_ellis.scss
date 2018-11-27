@@ -73,7 +73,11 @@ header {
 			padding: 2px 30px;
 			font-family: $font;
 			cursor: pointer;
-			font-size: 16px
+			font-size: 16px;
+
+			.fas {
+				font-size: 30px;
+			}
 		}
 	}
 
@@ -81,7 +85,7 @@ header {
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		height: 115px;
+		height: 135px;
 		background: white;
 		width: 100%;
 	}
@@ -309,6 +313,9 @@ header {
 				width: 80%;
 				margin: 0 auto;
 			}
+			@media #{$mobile} {
+				width: 100%;
+			}
 
 			a {
 
@@ -412,12 +419,24 @@ header {
 			}
 		}
 		.artwork-container {
-			text-align: right;
+			text-align: center;
 			margin-top: 45px;
 			font-family: $font;
 			font-size: 14px;
 			color: $primary-color;
 			text-transform: uppercase;
+
+			& > span {
+				@media #{$mobile} {
+					display: block;
+				}
+			}
+
+			.comma {
+				@media #{$mobile} {
+					display: none;
+				}
+			}
 		}
 	}
 }
@@ -497,6 +516,10 @@ header {
 			width: 450px;
 			display: block;
 			padding-top: 16px;
+
+			@media #{$mobile} {
+				width: 100%;
+			}
 
 			.ajax-loader {
 				margin: 0;

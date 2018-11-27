@@ -46,12 +46,14 @@ header {
         padding: 2px 30px;
         font-family: museo-sans, sans-serif;
         cursor: pointer;
-        font-size: 16px; } }
+        font-size: 16px; }
+        header .main-navigation .menu-toggle .fas {
+          font-size: 30px; } }
   header .main-navigation.toggled ul {
     display: flex;
     flex-direction: column;
     position: absolute;
-    height: 115px;
+    height: 135px;
     background: white;
     width: 100%; }
   header .main-navigation li {
@@ -208,6 +210,9 @@ header {
       .single #primary #main .upfront {
         width: 80%;
         margin: 0 auto; } }
+    @media only screen and (max-width: 600px) {
+      .single #primary #main .upfront {
+        width: 100%; } }
     .single #primary #main .upfront a:hover {
       color: red; }
     .single #primary #main .upfront .prev {
@@ -291,12 +296,18 @@ header {
         .single #primary #main .upfront img {
           width: 100%; } }
     .single #primary #main .artwork-container {
-      text-align: right;
+      text-align: center;
       margin-top: 45px;
       font-family: museo-sans, sans-serif;
       font-size: 14px;
       color: #A6A6A6;
       text-transform: uppercase; }
+      @media only screen and (max-width: 600px) {
+        .single #primary #main .artwork-container > span {
+          display: block; } }
+      @media only screen and (max-width: 600px) {
+        .single #primary #main .artwork-container .comma {
+          display: none; } }
 
 .page-id-290 #primary {
   max-width: 640px;
@@ -352,6 +363,9 @@ header {
       width: 450px;
       display: block;
       padding-top: 16px; }
+      @media only screen and (max-width: 600px) {
+        .page-id-274 #main .home-image div.wpcf7 {
+          width: 100%; } }
       .page-id-274 #main .home-image div.wpcf7 .ajax-loader {
         margin: 0; }
       .page-id-274 #main .home-image div.wpcf7 .wpcf7-form p label {
