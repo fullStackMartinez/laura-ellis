@@ -349,6 +349,10 @@ header {
 						@include opacity_element(120%);
 						cursor: pointer;
 					}
+
+					@media #{$mobile} {
+						display: none;
+					}
 				}
 			}
 			.next {
@@ -375,6 +379,10 @@ header {
 					&:hover {
 						@include opacity_element(140%);
 						cursor: pointer;
+					}
+
+					@media #{$mobile} {
+						display: none;
 					}
 				}
 			}

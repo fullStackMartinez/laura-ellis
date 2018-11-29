@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/fullStackMartinez/laura-ellis#readme",
   "dependencies": {
+    "jquery-touchswipe": "^1.6.19",
     "node-sass": "^4.10.0"
   }
 }

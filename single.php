@@ -46,8 +46,8 @@ get_header();
 					?>
 					<a rel="prev" href="<?php echo get_permalink($previd) ?>" class="prev"><img src="<?php echo get_template_directory_uri(); ?>/img/ellis2018bleft.png"/></a>
 					<?php
-				}
-				the_post_thumbnail(); ?>
+				} ?>
+				<span id="swipe-image"><?php the_post_thumbnail(); ?></span>
 				<?php
 				if(!empty($nextid)) {
 					?>
@@ -81,3 +81,24 @@ get_header();
 
 <?php
 get_footer();
+
+?>
+<script>
+	$(function() {
+		$("#swipe-image").swipe( {
+			//Generic swipe handler for all directions
+			swipeRight:function(event, direction, distance, duration, fingerCount, fingerData) {
+				$('.upfront a.next img').click();
+			}
+		});
+	});
+
+	$(function() {
+		$("#swipe-image").swipe( {
+			//Generic swipe handler for all directions
+			swipeLeft:function(event, direction, distance, duration, fingerCount, fingerData) {
+				$('.upfront a.prev img').click();
+			}
+		});
+	});
+</script>

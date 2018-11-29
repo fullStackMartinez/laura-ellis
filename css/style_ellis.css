@@ -240,6 +240,9 @@ header {
           -moz-filter: opacity(120%);
           filter: opacity(120%);
           cursor: pointer; }
+        @media only screen and (max-width: 600px) {
+          .single #primary #main .upfront .prev img {
+            display: none; } }
     .single #primary #main .upfront .next {
       position: absolute;
       top: 50%;
@@ -265,6 +268,9 @@ header {
           -moz-filter: opacity(140%);
           filter: opacity(140%);
           cursor: pointer; }
+        @media only screen and (max-width: 600px) {
+          .single #primary #main .upfront .next img {
+            display: none; } }
     .single #primary #main .upfront .close {
       width: 685px;
       margin: 0 auto;
